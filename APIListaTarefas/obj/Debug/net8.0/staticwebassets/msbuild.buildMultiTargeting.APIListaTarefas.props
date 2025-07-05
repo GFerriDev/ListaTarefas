@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\APIListaTarefas.props" />
+</Project>

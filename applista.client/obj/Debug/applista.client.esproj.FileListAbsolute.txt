@@ -1,0 +1,4 @@
+C:\Users\giovani.ferri\Downloads\AppLista\applista.client\obj\Debug\applista.client.esproj.CoreCompileInputs.cache
+C:\Users\giovani.ferri\source\repos\ProjetoListaTarefas\AppLista\applista.client\obj\Debug\applista.client.esproj.CoreCompileInputs.cache
+C:\Users\giovani.ferri\source\repos\ListaTarefas\AppLista\applista.client\obj\Debug\applista.client.esproj.CoreCompileInputs.cache
+C:\Users\gifer\Dropbox\PC\Downloads\ListaTarefas\ListaTarefas\AppLista\applista.client\obj\Debug\applista.client.esproj.CoreCompileInputs.cache

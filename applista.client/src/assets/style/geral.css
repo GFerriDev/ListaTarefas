@@ -1,0 +1,162 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f2f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+input[type="text"],
+select {
+  flex: 1;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+  input[type="text"]:focus,
+  select:focus {
+    border-color: #1e88e5;
+    outline: none;
+  }
+
+button {
+  padding: 10px 15px;
+  background-color: #1e88e5;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+  button:hover {
+    background-color: #1565c0;
+  }
+
+h2 {
+  margin-top: 30px;
+  color: #555;
+  font-size: 18px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-left: 5px solid #1e88e5;
+  padding: 12px 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  overflow-wrap: break-word; /* permite quebra de linha em palavras longas */
+  word-break: break-word; /* força quebra mesmo em palavras sem espaços */
+  animation: fadeIn 0.4s ease;
+}
+  li .completed-text {
+    flex: 1;
+    color: #888;
+    font-style: italic;
+    word-break: break-word;
+  }
+
+li input[type="text"] {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+}
+
+  li input[type="text"]:focus {
+    outline: none;
+    border-bottom: 1px solid #1e88e5;
+  }
+
+/* Estilização dos botões de ação */
+.actions {
+  display: flex;
+  flex-shrink: 0; /* impede que os botões encolham */
+  gap: 6px;
+}
+
+  .actions button {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  /* Botão verde para concluir */
+  .actions .btn-concluir {
+    background-color: #4caf50;
+  }
+
+    .actions .btn-concluir:hover {
+      background-color: #388e3c;
+    }
+
+  /* Botão vermelho para excluir */
+  .actions .btn-excluir {
+    background-color: #e53935;
+  }
+
+    .actions .btn-excluir:hover {
+      background-color: #c62828;
+    }
+
+.completed span {
+  flex: 1;
+  color: #888;
+  font-style: italic;
+}
+
+/* Animação */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

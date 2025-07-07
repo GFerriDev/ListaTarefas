@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/f96a1d0d-87f4-4253-b3ca-89dd80df0115)
 
 # 📋 Lista de Tarefas
 

@@ -1,4 +1,7 @@
 ![image](https://github.com/user-attachments/assets/f96a1d0d-87f4-4253-b3ca-89dd80df0115)
+---
+![image](https://github.com/user-attachments/assets/f00cd642-796a-40cb-bdac-27af087d5df1)
+
 
 # 📋 Lista de Tarefas
 

@@ -1,0 +1,10 @@
+Para o appLista.client:
+npm install
+npm start
+
+
+Para o appLista.server:
+dotnet build
+dotnet ef migrations add InitialCreate (cria a primeira migration)
+dotnet ef database update (aplica a migration e cria as tabelas no banco)
+dotnet run
